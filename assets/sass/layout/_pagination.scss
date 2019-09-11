@@ -1,0 +1,26 @@
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 1rem!important;
+    border-bottom-left-radius:1rem!important;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 1rem!important;
+    border-bottom-right-radius:1rem!important;
+}
+
+.page-link {
+    color: $Eerie-black;
+  }
+
+  .page-item.active .page-link {
+      z-index: 1;
+      color: $white;
+      background-color: $Nickel;
+      border-color: $Nickel;
+  }
+
+  .page-section {
+    background-color: $Platinum;
+    padding: 50px;
+  }

@@ -1,0 +1,13 @@
+.btn-secondary {
+    border-top-right-radius: 1rem!important;
+    border-bottom-right-radius:1rem!important;
+    border-top-left-radius: 1rem!important;
+    border-bottom-left-radius:1rem!important;
+
+    &:hover {
+    background-color: $Platinum;
+    border-color: $Nickel;
+    color: $Eerie-black;
+  }
+
+}
